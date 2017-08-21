@@ -1,0 +1,30 @@
+{
+  "name": "gigdig-node",
+  "version": "1.0.0",
+  "description": "find concerts around you",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Patrickae/GigDig-node.git"
+  },
+  "keywords": [
+    "node",
+    "jquery",
+    "express"
+  ],
+  "author": "andy patrick",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Patrickae/GigDig-node/issues"
+  },
+  "homepage": "https://github.com/Patrickae/GigDig-node#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.4",
+    "express-handlebars": "^3.0.0"
+  }
+}

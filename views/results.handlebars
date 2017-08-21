@@ -1,0 +1,111 @@
+
+    <div id="results" class="container">
+        <ul class="gigdig-slideshow">
+            <li><span></span><div></div></li>
+            <li><span></span><div></div></li>
+            <li><span></span><div></div></li>
+            <li><span></span><div></div></li>
+            <li><span></span><div></div></li>
+            <li><span></span><div></div></li>
+        </ul>
+
+        <div class="row">
+            <div class="col-xs-3">
+                <img src="assets/images/gigdig.png" height="150" />
+            </div>
+            <div class="col-xs-6">
+                <form>
+                    <div class="form-group">
+                        <label for="artist">Search for another Artist</label>
+                        <input type="email" class="form-control" id="artist-input" placeholder="Artist">
+                    </div>
+                </form>
+            </div>    
+            <div class="col-xs-3 search2">
+                <button type="submit" class="btn btn-info" id="submit">Search</button>
+            </div>
+
+        </div>
+
+
+        <div class="row">
+            <div class="col-xs-12 col-md-12">
+
+
+                <div class="container col-xs-12 col-md-9">       
+                    <div class="row">          
+
+                        <div class="container col-xs-12 col-sm-4"> 
+                            <div class="row">                            
+                              <div class="col-xs-12 col-sm-12" id="artist-img-song">
+                                <div id="artist-image"></div>             
+                            </div>  
+                        </div>
+
+                        <div class="row">
+
+                            <div class="panel panel-default">
+                                <div class="panel-heading custom_class">
+                                    <h3 class="panel-title" id="recent-searches-head">Recent Searches</h3>
+                                </div>                                   
+                                <div class="panel-body" id="recent-searches"> 
+                                      
+                                </div>
+                            </div>                       
+                        </div>
+                    </div>    
+
+
+
+
+
+                    <div class="col-xs-12 col-sm-8">
+                        <div class="panel panel-default">
+                            <div class="panel-heading custom_class">
+                                <h3 class="panel-title" id="results-title"></h3>
+                            </div>
+
+                            <div class="panel-body" id="event-list">     
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+     <!--    <div class="row">
+             <div class="container col-xs-12 col-sm-12">
+                <div id="map"></div>
+             </div>
+         </div>  -->
+
+     </div>
+
+
+     <div class = "col-xs-12 col-sm-3">
+        <div class = "panel panel-default">
+            <div class = "panel-heading custom_class">
+                <h3 class = "panel-title">Related Artists</h3>
+            </div>
+            <div class="panel-body" id="related-artists">
+            </div>
+        </div>
+    </div>
+
+</div>
+</div>
+</div>
+<div class="map-wrap hide">
+    <button id="closer">&times;</button>
+    <div id="map"></div> 
+</div>           
+
+
+<script src="https://www.gstatic.com/firebasejs/3.7.8/firebase.js"></script>
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAYdX6qRNMZO72joqnT_cvV8zu1h1b1Kfo"></script>
+<script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
+<script src="https://code.jquery.com/jquery.js"></script>
+<script type="text/javascript" src ="assets/javascript/script.js"></script>
+
+
+
+
+
