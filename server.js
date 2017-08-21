@@ -19,11 +19,12 @@ var exphbs = require("express-handlebars");
 app.engine("handlebars", exphbs({ defaultLayout: "main" }));
 app.set("view engine", "handlebars");
 
-
+//require routes
 require("./routes/search-routes.js")(app);
+require("./routes/api-routes.js")(app);
 
 
-
+//listen on port 8080
 app.listen(PORT, function() {
 	console.log("App listening on PORT " + PORT);
 });
